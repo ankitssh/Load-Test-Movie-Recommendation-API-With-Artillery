@@ -9,3 +9,4 @@
 6. pip install -r requirements.txt
 7. cd recommendation-service
 8. python run.py
+9. The API will run on port 8081 on localhost
