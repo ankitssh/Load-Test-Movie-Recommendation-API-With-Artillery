@@ -3,7 +3,7 @@
 ## How to run the api
 1. Clone this repo to your machine
 2. git clone https://github.com/ankitssh/Load-Test-Movie-Recommendation-API-With-Artillery.git
-3. cd https://github.com/ankitssh/Load-Test-Movie-Recommendation-API-With-Artillery.git
+3. cd Load-Test-Movie-Recommendation-API-With-Artillery
 4. python -m venv env
 5. source env/bin/activate
 6. pip install -r requirements.txt

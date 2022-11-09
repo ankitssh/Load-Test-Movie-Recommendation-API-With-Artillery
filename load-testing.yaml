@@ -1,0 +1,28 @@
+config:
+  target: http://localhost:8081/recommend/
+  phases:
+    # No users for 10 seconds
+    - name: no_users
+      pause: 10
+
+    # Generate 10 users every second for 60 seconds
+    - name: constant_arrival
+      duration: 60
+      arrivalRate: 10
+    
+    # Ramps up users from 10 to 50 over 60 seconds
+    - name: ramp_up
+      duration: 60
+      arrivalRate: 10
+      rampTo: 50
+
+    # Generate 10 users every second for 60 seconds
+    - name: constant_arrival
+      duration: 60
+      arrivalRate: 10   
+
+scenarios:
+- name: movie-recommendation
+  flow:
+  - get:
+      url: /10

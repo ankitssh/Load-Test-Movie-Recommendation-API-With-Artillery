@@ -1,0 +1,1431 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.movie-recommendation": 3042,
+      "vusers.created": 3042,
+      "http.requests": 5816,
+      "http.codes.308": 2774,
+      "http.responses": 5548,
+      "http.codes.200": 2774,
+      "vusers.failed": 268,
+      "vusers.completed": 2774,
+      "errors.ETIMEDOUT": 268
+    },
+    "rates": {
+      "http.request_rate": 32
+    },
+    "firstCounterAt": 1668029072733,
+    "firstHistogramAt": 1668029072810,
+    "lastCounterAt": 1668029252675,
+    "lastHistogramAt": 1668029252675,
+    "firstMetricAt": 1668029072733,
+    "lastMetricAt": 1668029252675,
+    "period": 1668029250000,
+    "summaries": {
+      "http.response_time": {
+        "min": 0,
+        "max": 10002,
+        "count": 5548,
+        "p50": 3,
+        "median": 3,
+        "p75": 104.6,
+        "p90": 6838,
+        "p95": 9999.2,
+        "p99": 9999.2,
+        "p999": 9999.2
+      },
+      "vusers.session_length": {
+        "min": 9,
+        "max": 10053.2,
+        "count": 2774,
+        "p50": 111.1,
+        "median": 111.1,
+        "p75": 5487.5,
+        "p90": 9999.2,
+        "p95": 9999.2,
+        "p99": 9999.2,
+        "p999": 9999.2
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 0,
+        "max": 10002,
+        "count": 5548,
+        "p50": 3,
+        "median": 3,
+        "p75": 104.6,
+        "p90": 6838,
+        "p95": 9999.2,
+        "p99": 9999.2,
+        "p999": 9999.2
+      },
+      "vusers.session_length": {
+        "min": 9,
+        "max": 10053.2,
+        "count": 2774,
+        "p50": 111.1,
+        "median": 111.1,
+        "p75": 5487.5,
+        "p90": 9999.2,
+        "p95": 9999.2,
+        "p99": 9999.2,
+        "p999": 9999.2
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 74,
+        "vusers.created": 74,
+        "http.requests": 148,
+        "http.codes.308": 74,
+        "http.responses": 148,
+        "http.codes.200": 74,
+        "vusers.failed": 0,
+        "vusers.completed": 74
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029072733,
+      "firstHistogramAt": 1668029072810,
+      "lastCounterAt": 1668029079990,
+      "lastHistogramAt": 1668029079990,
+      "firstMetricAt": 1668029072733,
+      "lastMetricAt": 1668029079990,
+      "period": "1668029070000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 36,
+          "count": 148,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 7,
+          "p999": 19.9
+        },
+        "vusers.session_length": {
+          "min": 11,
+          "max": 97.9,
+          "count": 74,
+          "p50": 16.6,
+          "median": 16.6,
+          "p75": 18.7,
+          "p90": 27.9,
+          "p95": 40,
+          "p99": 96.6,
+          "p999": 96.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 36,
+          "count": 148,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 7,
+          "p999": 19.9
+        },
+        "vusers.session_length": {
+          "min": 11,
+          "max": 97.9,
+          "count": 74,
+          "p50": 16.6,
+          "median": 16.6,
+          "p75": 18.7,
+          "p90": 27.9,
+          "p95": 40,
+          "p99": 96.6,
+          "p999": 96.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 200,
+        "http.codes.200": 100,
+        "vusers.failed": 0,
+        "vusers.completed": 100
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029080198,
+      "firstHistogramAt": 1668029080206,
+      "lastCounterAt": 1668029089990,
+      "lastHistogramAt": 1668029089990,
+      "firstMetricAt": 1668029080198,
+      "lastMetricAt": 1668029089990,
+      "period": "1668029080000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 5,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 4,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 10.1,
+          "max": 18.9,
+          "count": 100,
+          "p50": 12.3,
+          "median": 12.3,
+          "p75": 13.3,
+          "p90": 15.3,
+          "p95": 16.3,
+          "p99": 18.7,
+          "p999": 18.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 5,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 4,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 10.1,
+          "max": 18.9,
+          "count": 100,
+          "p50": 12.3,
+          "median": 12.3,
+          "p75": 13.3,
+          "p90": 15.3,
+          "p95": 16.3,
+          "p99": 18.7,
+          "p999": 18.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 200,
+        "http.codes.200": 100,
+        "vusers.failed": 0,
+        "vusers.completed": 100
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029090198,
+      "firstHistogramAt": 1668029090207,
+      "lastCounterAt": 1668029099990,
+      "lastHistogramAt": 1668029099990,
+      "firstMetricAt": 1668029090198,
+      "lastMetricAt": 1668029099990,
+      "period": "1668029090000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 6,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 5,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 19,
+          "count": 100,
+          "p50": 11.4,
+          "median": 11.4,
+          "p75": 12.3,
+          "p90": 14.2,
+          "p95": 15.3,
+          "p99": 18.7,
+          "p999": 18.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 6,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 5,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 19,
+          "count": 100,
+          "p50": 11.4,
+          "median": 11.4,
+          "p75": 12.3,
+          "p90": 14.2,
+          "p95": 15.3,
+          "p99": 18.7,
+          "p999": 18.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 200,
+        "http.codes.200": 100,
+        "vusers.failed": 0,
+        "vusers.completed": 100
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029100198,
+      "firstHistogramAt": 1668029100206,
+      "lastCounterAt": 1668029109989,
+      "lastHistogramAt": 1668029109989,
+      "firstMetricAt": 1668029100198,
+      "lastMetricAt": 1668029109989,
+      "period": "1668029100000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 4,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 9.3,
+          "max": 30.1,
+          "count": 100,
+          "p50": 11.1,
+          "median": 11.1,
+          "p75": 12.1,
+          "p90": 12.8,
+          "p95": 14.4,
+          "p99": 24.3,
+          "p999": 24.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 4,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 9.3,
+          "max": 30.1,
+          "count": 100,
+          "p50": 11.1,
+          "median": 11.1,
+          "p75": 12.1,
+          "p90": 12.8,
+          "p95": 14.4,
+          "p99": 24.3,
+          "p999": 24.3
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 200,
+        "http.codes.200": 100,
+        "vusers.failed": 0,
+        "vusers.completed": 100
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029110198,
+      "firstHistogramAt": 1668029110206,
+      "lastCounterAt": 1668029119989,
+      "lastHistogramAt": 1668029119989,
+      "firstMetricAt": 1668029110198,
+      "lastMetricAt": 1668029119989,
+      "period": "1668029110000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 8,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 4,
+          "p999": 6
+        },
+        "vusers.session_length": {
+          "min": 9.4,
+          "max": 21.7,
+          "count": 100,
+          "p50": 10.9,
+          "median": 10.9,
+          "p75": 12.3,
+          "p90": 13.9,
+          "p95": 15,
+          "p99": 17.3,
+          "p999": 17.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 8,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 4,
+          "p999": 6
+        },
+        "vusers.session_length": {
+          "min": 9.4,
+          "max": 21.7,
+          "count": 100,
+          "p50": 10.9,
+          "median": 10.9,
+          "p75": 12.3,
+          "p90": 13.9,
+          "p95": 15,
+          "p99": 17.3,
+          "p999": 17.3
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 200,
+        "http.codes.200": 100,
+        "vusers.failed": 0,
+        "vusers.completed": 100
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029120198,
+      "firstHistogramAt": 1668029120205,
+      "lastCounterAt": 1668029129988,
+      "lastHistogramAt": 1668029129988,
+      "firstMetricAt": 1668029120198,
+      "lastMetricAt": 1668029129988,
+      "period": "1668029120000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 15,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 5,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 25.1,
+          "count": 100,
+          "p50": 11.1,
+          "median": 11.1,
+          "p75": 12.1,
+          "p90": 13.9,
+          "p95": 14.7,
+          "p99": 21.1,
+          "p999": 21.1
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 15,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 3,
+          "p99": 5,
+          "p999": 5
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 25.1,
+          "count": 100,
+          "p50": 11.1,
+          "median": 11.1,
+          "p75": 12.1,
+          "p90": 13.9,
+          "p95": 14.7,
+          "p99": 21.1,
+          "p999": 21.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 124,
+        "vusers.created": 124,
+        "http.requests": 248,
+        "http.codes.308": 124,
+        "http.responses": 248,
+        "http.codes.200": 124,
+        "vusers.failed": 0,
+        "vusers.completed": 124
+      },
+      "rates": {
+        "http.request_rate": 26
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029130198,
+      "firstHistogramAt": 1668029130207,
+      "lastCounterAt": 1668029139963,
+      "lastHistogramAt": 1668029139963,
+      "firstMetricAt": 1668029130198,
+      "lastMetricAt": 1668029139963,
+      "period": "1668029130000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 7,
+          "count": 248,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 4,
+          "p95": 4,
+          "p99": 6,
+          "p999": 7
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 23.7,
+          "count": 124,
+          "p50": 11.4,
+          "median": 11.4,
+          "p75": 12.8,
+          "p90": 14.4,
+          "p95": 15.3,
+          "p99": 17.6,
+          "p999": 17.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 7,
+          "count": 248,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 4,
+          "p95": 4,
+          "p99": 6,
+          "p999": 7
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 23.7,
+          "count": 124,
+          "p50": 11.4,
+          "median": 11.4,
+          "p75": 12.8,
+          "p90": 14.4,
+          "p95": 15.3,
+          "p99": 17.6,
+          "p999": 17.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 191,
+        "vusers.created": 191,
+        "http.requests": 382,
+        "http.codes.308": 191,
+        "http.responses": 382,
+        "http.codes.200": 191,
+        "vusers.failed": 0,
+        "vusers.completed": 191
+      },
+      "rates": {
+        "http.request_rate": 40
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029140005,
+      "firstHistogramAt": 1668029140013,
+      "lastCounterAt": 1668029149912,
+      "lastHistogramAt": 1668029149912,
+      "firstMetricAt": 1668029140005,
+      "lastMetricAt": 1668029149912,
+      "period": "1668029140000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1,
+          "max": 18,
+          "count": 382,
+          "p50": 3,
+          "median": 3,
+          "p75": 3,
+          "p90": 4,
+          "p95": 5,
+          "p99": 7.9,
+          "p999": 12.1
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 63.4,
+          "count": 191,
+          "p50": 11.6,
+          "median": 11.6,
+          "p75": 13.1,
+          "p90": 16,
+          "p95": 17.3,
+          "p99": 22.9,
+          "p999": 27.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1,
+          "max": 18,
+          "count": 382,
+          "p50": 3,
+          "median": 3,
+          "p75": 3,
+          "p90": 4,
+          "p95": 5,
+          "p99": 7.9,
+          "p999": 12.1
+        },
+        "vusers.session_length": {
+          "min": 9.5,
+          "max": 63.4,
+          "count": 191,
+          "p50": 11.6,
+          "median": 11.6,
+          "p75": 13.1,
+          "p90": 16,
+          "p95": 17.3,
+          "p99": 22.9,
+          "p999": 27.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 267,
+        "vusers.created": 267,
+        "http.requests": 511,
+        "http.codes.308": 244,
+        "http.responses": 487,
+        "http.codes.200": 243,
+        "vusers.failed": 0,
+        "vusers.completed": 243
+      },
+      "rates": {
+        "http.request_rate": 52
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029150005,
+      "firstHistogramAt": 1668029150012,
+      "lastCounterAt": 1668029159998,
+      "lastHistogramAt": 1668029159997,
+      "firstMetricAt": 1668029150005,
+      "lastMetricAt": 1668029159998,
+      "period": "1668029150000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 863,
+          "count": 487,
+          "p50": 4,
+          "median": 4,
+          "p75": 262.5,
+          "p90": 391.6,
+          "p95": 608,
+          "p99": 772.9,
+          "p999": 804.5
+        },
+        "vusers.session_length": {
+          "min": 9.6,
+          "max": 813.6,
+          "count": 243,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 383.8,
+          "p90": 620.3,
+          "p95": 685.5,
+          "p99": 804.5,
+          "p999": 804.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 863,
+          "count": 487,
+          "p50": 4,
+          "median": 4,
+          "p75": 262.5,
+          "p90": 391.6,
+          "p95": 608,
+          "p99": 772.9,
+          "p999": 804.5
+        },
+        "vusers.session_length": {
+          "min": 9.6,
+          "max": 813.6,
+          "count": 243,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 383.8,
+          "p90": 620.3,
+          "p95": 685.5,
+          "p99": 804.5,
+          "p999": 804.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 247,
+        "http.responses": 493,
+        "vusers.failed": 0,
+        "vusers.completed": 247,
+        "vusers.created_by_name.movie-recommendation": 324,
+        "vusers.created": 324,
+        "http.requests": 570,
+        "http.codes.308": 246
+      },
+      "rates": {
+        "http.request_rate": 57
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029160000,
+      "firstHistogramAt": 1668029160000,
+      "lastCounterAt": 1668029169977,
+      "lastHistogramAt": 1668029169978,
+      "firstMetricAt": 1668029160000,
+      "lastMetricAt": 1668029169978,
+      "period": "1668029160000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 2952,
+          "count": 493,
+          "p50": 43.4,
+          "median": 43.4,
+          "p75": 1652.8,
+          "p90": 2416.8,
+          "p95": 2780,
+          "p99": 2893.5,
+          "p999": 2951.9
+        },
+        "vusers.session_length": {
+          "min": 801.6,
+          "max": 2964.7,
+          "count": 247,
+          "p50": 1686.1,
+          "median": 1686.1,
+          "p75": 2231,
+          "p90": 2780,
+          "p95": 2893.5,
+          "p99": 2951.9,
+          "p999": 2951.9
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 2952,
+          "count": 493,
+          "p50": 43.4,
+          "median": 43.4,
+          "p75": 1652.8,
+          "p90": 2416.8,
+          "p95": 2780,
+          "p99": 2893.5,
+          "p999": 2951.9
+        },
+        "vusers.session_length": {
+          "min": 801.6,
+          "max": 2964.7,
+          "count": 247,
+          "p50": 1686.1,
+          "median": 1686.1,
+          "p75": 2231,
+          "p90": 2780,
+          "p95": 2893.5,
+          "p99": 2951.9,
+          "p999": 2951.9
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 384,
+        "vusers.created": 384,
+        "http.requests": 627,
+        "http.codes.308": 243,
+        "http.responses": 486,
+        "http.codes.200": 243,
+        "vusers.failed": 0,
+        "vusers.completed": 243
+      },
+      "rates": {
+        "http.request_rate": 64
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029170005,
+      "firstHistogramAt": 1668029170068,
+      "lastCounterAt": 1668029179963,
+      "lastHistogramAt": 1668029179950,
+      "firstMetricAt": 1668029170005,
+      "lastMetricAt": 1668029179963,
+      "period": "1668029170000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1,
+          "max": 6225,
+          "count": 486,
+          "p50": 18,
+          "median": 18,
+          "p75": 4583.6,
+          "p90": 5487.5,
+          "p95": 5944.6,
+          "p99": 6187.2,
+          "p999": 6187.2
+        },
+        "vusers.session_length": {
+          "min": 3008.6,
+          "max": 6236.4,
+          "count": 243,
+          "p50": 4676.2,
+          "median": 4676.2,
+          "p75": 5487.5,
+          "p90": 5944.6,
+          "p95": 6064.7,
+          "p99": 6187.2,
+          "p999": 6187.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1,
+          "max": 6225,
+          "count": 486,
+          "p50": 18,
+          "median": 18,
+          "p75": 4583.6,
+          "p90": 5487.5,
+          "p95": 5944.6,
+          "p99": 6187.2,
+          "p999": 6187.2
+        },
+        "vusers.session_length": {
+          "min": 3008.6,
+          "max": 6236.4,
+          "count": 243,
+          "p50": 4676.2,
+          "median": 4676.2,
+          "p75": 5487.5,
+          "p90": 5944.6,
+          "p95": 6064.7,
+          "p99": 6187.2,
+          "p999": 6187.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 453,
+        "vusers.created": 453,
+        "http.requests": 698,
+        "http.codes.308": 245,
+        "http.responses": 490,
+        "http.codes.200": 245,
+        "vusers.failed": 0,
+        "vusers.completed": 245
+      },
+      "rates": {
+        "http.request_rate": 71
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029180005,
+      "firstHistogramAt": 1668029180050,
+      "lastCounterAt": 1668029189963,
+      "lastHistogramAt": 1668029189943,
+      "firstMetricAt": 1668029180005,
+      "lastMetricAt": 1668029189963,
+      "period": "1668029180000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9950,
+          "count": 490,
+          "p50": 16.9,
+          "median": 16.9,
+          "p75": 8024.5,
+          "p90": 9047.6,
+          "p95": 9607.1,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 6284.6,
+          "max": 9957.7,
+          "count": 245,
+          "p50": 8186.6,
+          "median": 8186.6,
+          "p75": 9047.6,
+          "p90": 9801.2,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9950,
+          "count": 490,
+          "p50": 16.9,
+          "median": 16.9,
+          "p75": 8024.5,
+          "p90": 9047.6,
+          "p95": 9607.1,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 6284.6,
+          "max": 9957.7,
+          "count": 245,
+          "p50": 8186.6,
+          "median": 8186.6,
+          "p75": 9047.6,
+          "p90": 9801.2,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 198,
+        "vusers.created": 198,
+        "http.requests": 441,
+        "http.codes.308": 243,
+        "http.responses": 486,
+        "http.codes.200": 243,
+        "vusers.failed": 207,
+        "vusers.completed": 243,
+        "errors.ETIMEDOUT": 207
+      },
+      "rates": {
+        "http.request_rate": 45
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029190005,
+      "firstHistogramAt": 1668029190034,
+      "lastCounterAt": 1668029199988,
+      "lastHistogramAt": 1668029199917,
+      "firstMetricAt": 1668029190005,
+      "lastMetricAt": 1668029199988,
+      "period": "1668029190000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1,
+          "max": 10002,
+          "count": 486,
+          "p50": 16.9,
+          "median": 16.9,
+          "p75": 9999.2,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 9912.9,
+          "max": 10027.9,
+          "count": 243,
+          "p50": 9999.2,
+          "median": 9999.2,
+          "p75": 9999.2,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1,
+          "max": 10002,
+          "count": 486,
+          "p50": 16.9,
+          "median": 16.9,
+          "p75": 9999.2,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 9912.9,
+          "max": 10027.9,
+          "count": 243,
+          "p50": 9999.2,
+          "median": 9999.2,
+          "p75": 9999.2,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 61,
+        "vusers.failed": 61,
+        "http.codes.308": 237,
+        "http.responses": 474,
+        "http.requests": 337,
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.codes.200": 237,
+        "vusers.completed": 237
+      },
+      "rates": {
+        "http.request_rate": 35
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029200008,
+      "firstHistogramAt": 1668029200036,
+      "lastCounterAt": 1668029209997,
+      "lastHistogramAt": 1668029209997,
+      "firstMetricAt": 1668029200008,
+      "lastMetricAt": 1668029209997,
+      "period": "1668029200000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1,
+          "max": 10001,
+          "count": 474,
+          "p50": 13.1,
+          "median": 13.1,
+          "p75": 6702.6,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 11.3,
+          "max": 10053.2,
+          "count": 237,
+          "p50": 6702.6,
+          "median": 6702.6,
+          "p75": 9999.2,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1,
+          "max": 10001,
+          "count": 474,
+          "p50": 13.1,
+          "median": 13.1,
+          "p75": 6702.6,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 11.3,
+          "max": 10053.2,
+          "count": 237,
+          "p50": 6702.6,
+          "median": 6702.6,
+          "p75": 9999.2,
+          "p90": 9999.2,
+          "p95": 9999.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 200,
+        "http.codes.200": 100,
+        "vusers.failed": 0,
+        "vusers.completed": 100
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029210047,
+      "firstHistogramAt": 1668029210055,
+      "lastCounterAt": 1668029219996,
+      "lastHistogramAt": 1668029219996,
+      "firstMetricAt": 1668029210047,
+      "lastMetricAt": 1668029219996,
+      "period": "1668029210000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 24,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 7.9,
+          "p999": 10.9
+        },
+        "vusers.session_length": {
+          "min": 9,
+          "max": 32.9,
+          "count": 100,
+          "p50": 11.6,
+          "median": 11.6,
+          "p75": 12.6,
+          "p90": 14.2,
+          "p95": 15.6,
+          "p99": 20.3,
+          "p999": 20.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 24,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 7.9,
+          "p999": 10.9
+        },
+        "vusers.session_length": {
+          "min": 9,
+          "max": 32.9,
+          "count": 100,
+          "p50": 11.6,
+          "median": 11.6,
+          "p75": 12.6,
+          "p90": 14.2,
+          "p95": 15.6,
+          "p99": 20.3,
+          "p999": 20.3
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 200,
+        "http.codes.200": 100,
+        "vusers.failed": 0,
+        "vusers.completed": 100
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029220047,
+      "firstHistogramAt": 1668029220055,
+      "lastCounterAt": 1668029229997,
+      "lastHistogramAt": 1668029229997,
+      "firstMetricAt": 1668029220047,
+      "lastMetricAt": 1668029229997,
+      "period": "1668029220000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 8,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 5,
+          "p999": 6
+        },
+        "vusers.session_length": {
+          "min": 9.2,
+          "max": 17.1,
+          "count": 100,
+          "p50": 10.9,
+          "median": 10.9,
+          "p75": 11.8,
+          "p90": 13.9,
+          "p95": 15,
+          "p99": 16.9,
+          "p999": 16.9
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 8,
+          "count": 200,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 5,
+          "p999": 6
+        },
+        "vusers.session_length": {
+          "min": 9.2,
+          "max": 17.1,
+          "count": 100,
+          "p50": 10.9,
+          "median": 10.9,
+          "p75": 11.8,
+          "p90": 13.9,
+          "p95": 15,
+          "p99": 16.9,
+          "p999": 16.9
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 199,
+        "http.codes.200": 99,
+        "vusers.failed": 0,
+        "vusers.completed": 99
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029230047,
+      "firstHistogramAt": 1668029230054,
+      "lastCounterAt": 1668029239993,
+      "lastHistogramAt": 1668029239993,
+      "firstMetricAt": 1668029230047,
+      "lastMetricAt": 1668029239993,
+      "period": "1668029230000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 8,
+          "count": 199,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 6,
+          "p999": 7
+        },
+        "vusers.session_length": {
+          "min": 9.1,
+          "max": 19.7,
+          "count": 99,
+          "p50": 11.1,
+          "median": 11.1,
+          "p75": 12.3,
+          "p90": 14.4,
+          "p95": 15.6,
+          "p99": 18.4,
+          "p999": 18.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 8,
+          "count": 199,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 6,
+          "p999": 7
+        },
+        "vusers.session_length": {
+          "min": 9.1,
+          "max": 19.7,
+          "count": 99,
+          "p50": 11.1,
+          "median": 11.1,
+          "p75": 12.3,
+          "p90": 14.4,
+          "p95": 15.6,
+          "p99": 18.4,
+          "p999": 18.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.movie-recommendation": 100,
+        "vusers.created": 100,
+        "http.requests": 200,
+        "http.codes.308": 100,
+        "http.responses": 201,
+        "http.codes.200": 101,
+        "vusers.failed": 0,
+        "vusers.completed": 101
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1668029240001,
+      "firstHistogramAt": 1668029240001,
+      "lastCounterAt": 1668029249995,
+      "lastHistogramAt": 1668029249995,
+      "firstMetricAt": 1668029240001,
+      "lastMetricAt": 1668029249995,
+      "period": "1668029240000",
+      "summaries": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9,
+          "count": 201,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 7,
+          "p999": 7
+        },
+        "vusers.session_length": {
+          "min": 9,
+          "max": 18.1,
+          "count": 101,
+          "p50": 10.5,
+          "median": 10.5,
+          "p75": 11.8,
+          "p90": 13.1,
+          "p95": 14.7,
+          "p99": 17.3,
+          "p999": 17.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 0,
+          "max": 9,
+          "count": 201,
+          "p50": 2,
+          "median": 2,
+          "p75": 3,
+          "p90": 3,
+          "p95": 4,
+          "p99": 7,
+          "p999": 7
+        },
+        "vusers.session_length": {
+          "min": 9,
+          "max": 18.1,
+          "count": 101,
+          "p50": 10.5,
+          "median": 10.5,
+          "p75": 11.8,
+          "p90": 13.1,
+          "p95": 14.7,
+          "p99": 17.3,
+          "p999": 17.3
+        }
+      }
+    }
+  ]
+}
